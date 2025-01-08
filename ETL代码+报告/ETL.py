@@ -16,7 +16,7 @@ kw_dir = pathlib.Path().cwd()/'kw dir'
 kw_dir.mkdir(exist_ok=True)
 
 # URL and API key for the New York times API
-API_KEY = "kuvoRvswP6TC25uO1CGKNANxQx8hn97Z"
+API_KEY = "example api key"
 URL = "https://api.nytimes.com/svc/search/v2/articlesearch.json"
 
 def get_hits(URL,params):
